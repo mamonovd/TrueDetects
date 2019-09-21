@@ -1,5 +1,5 @@
 <template>
-  <div id="marketVolume" class="chart"></div>  
+  <div id="marketVolume" class="chart"></div>
 </template>
 
 <script>

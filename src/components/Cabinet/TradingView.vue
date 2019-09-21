@@ -1,5 +1,9 @@
 <template>
-  <div style="width: 100%; height: 100%;" id="iChart" ref="iChart" class="elevation-3">
+  <div style="width: 100%; height: 95%;">
+      <div style="width: 100%; height: 100%;" id="iChart" ref="iChart" class="elevation-3"></div>
+    <div style="text-align: center">
+      <a href="https://www.tradingview.com/lightweight-charts/" rel="noopener" target="_blank"><span class="blue-text">Lightweight Charts</span></a>&nbsp;by TradingView
+    </div>
   </div>
 </template>
 <script>

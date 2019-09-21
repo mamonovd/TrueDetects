@@ -42,14 +42,14 @@
             <v-row>
               <v-col class="pa-0">
                 <v-card>
-                <v-overlay
-                  absolute
-                  opacity="0.1"
-                  :value="loadingChart"
-                  z-index="5"
-                >
-                  <v-progress-circular :color="loadingColor" indeterminate size="64"></v-progress-circular>
-                </v-overlay>
+                  <v-overlay
+                    absolute
+                    opacity="0.1"
+                    :value="loadingChart"
+                    z-index="5"
+                  >
+                    <v-progress-circular :color="loadingColor" indeterminate size="64"></v-progress-circular>
+                  </v-overlay>
                   <div style="height: 400px;">
                     <TradingView :item="selectedItem" :loadingChart.sync="loadingChart"/>
                   </div>
